@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Proyecto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Nombre>PatitoQuerido</Nombre>
+  <Entidades>
+    <Nombre>Suscripcion</Nombre>
+    <Atributos>
+      <Nombre>Codigo</Nombre>
+      <Tipo>ENTERO</Tipo>
+    </Atributos>
+    <Atributos>
+      <Nombre>Nombre</Nombre>
+      <Tipo>TEXTO</Tipo>
+    </Atributos>
+    <Atributos>
+      <Nombre>VigDesde</Nombre>
+      <Tipo>FECHA</Tipo>
+    </Atributos>
+	<Atributos>
+      <Nombre>VigHasta</Nombre>
+      <Tipo>FECHA</Tipo>
+    </Atributos>    
+    <Atributos>
+      <Nombre>EnPromo</Nombre>
+      <Tipo>BOOLEANO</Tipo>
+    </Atributos>
+  </Entidades>
+  <Entidades>
+    <Nombre>Clientes</Nombre>
+    <Atributos>
+      <Nombre>Codigo</Nombre>
+      <Tipo>ENTERO</Tipo>
+    </Atributos>
+    <Atributos>
+      <Nombre>Nombre</Nombre>
+      <Tipo>TEXTO</Tipo>
+    </Atributos>
+    <Atributos>
+      <Nombre>FecNacimiento</Nombre>
+      <Tipo>FECHA</Tipo>
+    </Atributos>
+  </Entidades>
+</Proyecto>

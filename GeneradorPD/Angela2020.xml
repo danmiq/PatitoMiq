@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Proyecto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Nombre>Angela2020</Nombre>
+  <Entidades>
+    <Nombre>Prendas</Nombre>
+    <Atributos>
+      <Nombre>Codigo</Nombre>
+      <Tipo>ENTERO</Tipo>
+    </Atributos>
+    <Atributos>
+      <Nombre>Nombre</Nombre>
+      <Tipo>TEXTO</Tipo>
+    </Atributos>
+    <Atributos>
+      <Nombre>FecIngreso</Nombre>
+      <Tipo>FECHA</Tipo>
+    </Atributos>
+    <Atributos>
+      <Nombre>Vigente</Nombre>
+      <Tipo>BOOLEANO</Tipo>
+    </Atributos>
+  </Entidades>
+  <Entidades>
+    <Nombre>Proveedores</Nombre>
+    <Atributos>
+      <Nombre>Codigo</Nombre>
+      <Tipo>ENTERO</Tipo>
+    </Atributos>
+    <Atributos>
+      <Nombre>Nombre</Nombre>
+      <Tipo>TEXTO</Tipo>
+    </Atributos>
+    <Atributos>
+      <Nombre>FecAlta</Nombre>
+      <Tipo>FECHA</Tipo>
+    </Atributos>
+  </Entidades>
+</Proyecto>
